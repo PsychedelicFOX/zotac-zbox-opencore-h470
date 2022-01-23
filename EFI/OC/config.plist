@@ -259,6 +259,8 @@
 				<data>AgAKAAAEAADHAwAA</data>
 				<key>framebuffer-con2-alldata</key>
 				<data>AwAIAAAEAADHAwAA</data>
+				<key>enable-max-pixel-clock-override</key>
+				<string>01000000</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
@@ -1242,26 +1244,7 @@
 		<false/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseFeatures</key>
-			<false/>
-			<key>MLB</key>
-			<string>C02016300J9PHCDA8</string>
-			<key>MaxBIOSVersion</key>
-			<false/>
-			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>ROM</key>
-			<data>ESIzAAAA</data>
-			<key>SpoofVendor</key>
-			<true/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
-			<key>SystemProductName</key>
-			<string>iMac20,1</string>
-			<key>SystemSerialNumber</key>
-			<string>C02CL2Z0PN5T</string>
-			<key>SystemUUID</key>
-			<string>980CEEAF-8C1C-427D-BD6D-74F2A6423FBE</string>
+		
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
