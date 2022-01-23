@@ -259,6 +259,8 @@
 				<data>AgAKAAAEAADHAwAA</data>
 				<key>framebuffer-con2-alldata</key>
 				<data>AwAIAAAEAADHAwAA</data>
+				<key>enable-max-pixel-clock-override</key>
+				<string>01000000</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
