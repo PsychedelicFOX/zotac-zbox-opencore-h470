@@ -30,6 +30,14 @@
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PMC.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PMC.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -247,20 +255,6 @@
 				<data>AAAwAQ==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-alldata</key>
-				<data>AQEJAAAIAADHAwAA</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AgAKAAAEAADHAwAA</data>
-				<key>framebuffer-con2-alldata</key>
-				<data>AwAIAAAEAADHAwAA</data>
-				<key>enable-max-pixel-clock-override</key>
-				<string>01000000</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
@@ -1176,7 +1170,7 @@
 				<key>SystemAudioVolumeDB</key>
 				<data>4g==</data>
 				<key>boot-args</key>
-				<string>-v -wegdbg keepsyms=1debug=0x100 alcid=1</string>
+				<string>-v -wegdbg keepsyms=1debug=0x100 alcid=1 swd_panic=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
